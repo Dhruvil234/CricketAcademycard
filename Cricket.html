@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vw;
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+        }
+        .card{
+            width: 500px;
+            height: 500px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .card img{
+            width: 100%;
+            height: 33%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .textbox{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .textbox p{
+            font-size: 130%;
+        }
+        #AmountBox{
+            width: 400px;
+            height: 50px;
+            background-color: whitesmoke;
+            border-radius: 10%;
+        }
+        #PaymentButton{
+            width: 20%;
+            height: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card"> 
+
+            <img src="Cricket_Academy.jpg"/>
+
+            <div class="textbox">
+                <h2>Cricket_Academy</h2>
+            
+                <p>Welcome to world best batsmen KING KOHLI's Cricket_Academy.Cricket Academy is located in Delhi.It Started from 2015.Kohli's Childhood coach Raj Kumar Train the player.</p>
+
+              <div id="AmountBox">
+
+                <div id="textamountbox">
+
+                   <p>Payable Amount</p> 
+                   <p>$555/Per Year</p>
+
+                </div>
+              </div>
+              
+              <button id="PaymentButton">
+
+                Proceed
+
+              </button>
+             
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
